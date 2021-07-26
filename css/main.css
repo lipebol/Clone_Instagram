@@ -1,0 +1,257 @@
+                                                        /* PRE CONFIGURATION */
+:root {
+    --primary-color: #fafafa;
+    --secondary-color: #262626;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    resize: none;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+                                                                                /* GLOBAL */
+body {
+    color: var(--secondary-color);
+}
+
+.container, #top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 6rem;
+    background: var(--primary-color);
+}
+
+#profile {
+    display: flex;
+    padding: 0 5rem;
+    width: 100%;
+    max-width: 90%;
+    margin-left: 4rem;
+    margin-top: 3rem;
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    padding: 0 5rem;
+    width: 100%;
+    max-width: 95%;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.pht-infos {
+    display: none;
+}
+
+.pht-infos li {
+    display: inline-block;
+    margin-right: 1.2rem;
+}
+
+.pht-infos .likes, .pht-infos .comments {
+    font-family:'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 1rem;
+    filter: invert(1);
+}
+                                                                                /* TOP */
+#top {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dbdbdb;
+    height: 55px;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.items li {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1rem 6rem;
+}
+
+.items #search {
+    color: #dbdbdb;
+    font-size: 0.9rem;
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+    padding: 0.2rem 3rem;
+    text-align: center;
+    margin-bottom: 0.6rem;
+}
+
+.icons li {
+    margin: 0 0.1rem;
+    padding: 0 0.4rem;
+}
+
+.icons #perfil {
+    border-radius: 50px;
+    border: 1px solid #262626;
+    padding: 2px;
+}
+                                                                                /* HEADER */
+#profile-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.333%;
+    padding: 0.5rem 0;
+    margin-right: 3rem;
+}
+
+#profile-image img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+#profile ul {
+    width: 100%;
+}
+
+#profile ul li {
+    padding: 0.1rem 0;
+}
+
+#profile-settings li, #profile-stats li {
+    display: inline-block;
+    margin-right: 1.5rem;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+#user-name {
+    font-weight: 300;
+}
+
+#profile button, #profile li a {
+    cursor: pointer;
+    background: none;
+}
+
+#btn-edit {
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 1.8;
+    border: 0.1rem solid #dbdbdb;
+    border-radius: 0.3rem;
+    padding: 0 1.8rem;
+    color: var(--secondary-color);
+}
+
+#btn-settings h2 {
+    font-size: 1.3rem;
+}
+
+.stat-count, #real-name {
+    font-weight: 600;
+}
+
+#profile-bio {
+    margin: 1rem 0;
+}
+                                                                                /* MAIN */
+#gallery > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 280px;
+    cursor: pointer;
+}
+
+#pht1 {
+    background: url('../images/profile/Foto\ de\ Pixabay\ no\ Pexels.jpg') no-repeat;
+    background-size: cover;
+}
+
+#pht2 {
+    background: url('../images/profile/Foto\ de\ Brett\ Sayles\ no\ Pexels.jpg') no-repeat;
+    background-size: cover;
+}
+
+#pht3 {
+    background: url('../images/profile/Foto\ de\ Valeria\ Boltneva\ no\ Pexels.jpg') no-repeat;
+    background-size: cover;
+}
+
+#pht4 {
+    background: url('../images/profile/Foto\ de\ Alex\ Wealth\ no\ Pexels.jpg') no-repeat;
+    background-size: cover;
+}
+
+#pht5 {
+    background: url('../images/profile/Foto\ de\ Kelly\ Lacy\ no\ Pexels.jpg') no-repeat;
+    background-size: cover;
+}
+
+#pht6 {
+    background: url('../images/profile/Foto\ de\ Oladimeji\ Ajegbile\ no\ Pexels.jpg') no-repeat;
+    background-size: cover;
+}
+
+#pht7 {
+    background: url('../images/profile/Foto\ de\ Josh\ Sorenson\ no\ Pexels.jpg') no-repeat;
+    background-size: cover;
+}
+
+#pht8 {
+    background: url('../images/profile/Foto\ de\ Wendy\ Wei\ no\ Pexels.jpg') no-repeat;
+    background-size: cover;
+}
+
+#pht9 {
+    background: url('../images/profile/Foto\ de\ Lisa\ Fotios\ no\ Pexels.jpg') no-repeat;
+    background-size: cover;
+}
+
+#pht10 {
+    background: url('../images/profile/Foto\ de\ nappy\ no\ Pexels.jpg') no-repeat;
+    background-size: cover;
+}
+
+#pht11 {
+    background: url('../images/profile/Foto\ de\ Vova\ Krasilnikov\ no\ Pexels.jpg') no-repeat;
+    background-size: cover;
+}
+
+#pht12 {
+    background: url('../images/profile/Foto\ de\ Carlos\ Santos\ no\ Pexels.jpg') no-repeat;
+    background-size: cover;
+}
+
+
+#pht1:hover .pht-infos, #pht2:hover .pht-infos, #pht3:hover .pht-infos, #pht4:hover .pht-infos, 
+#pht5:hover .pht-infos, #pht6:hover .pht-infos, #pht7:hover .pht-infos, #pht8:hover .pht-infos,
+#pht9:hover .pht-infos, #pht10:hover .pht-infos, #pht11:hover .pht-infos, #pht12:hover .pht-infos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 80rem) {
+    #search {
+        width: 100%;
+    }
+}
