@@ -31,7 +31,7 @@
 
 ## :memo: Sobre
 
-Com nome, informações e fotos (ambos fictícios), "nealjanes_" é um clone do layout de um perfil pessoal do [Instagram](https://www.instagram.com/).
+Com nome, informações e fotos (ambos fictícios), "nealjanes_" é um clone do layout de um perfil pessoal do [Instagram](https://www.instagram.com/), da empresa [Meta Platforms, Inc.](https://about.facebook.com/meta/).
 
 ## :mag_right: Status
 
@@ -39,7 +39,6 @@ No momento o projeto está:    PAUSADO :exclamation:
 
 Tenho em mente fazer para incrementar o projeto:
 
-- [x] Sistema de Login
 - [x] Layout
   - [x] Design Responsivo
   
@@ -66,7 +65,3 @@ Romanos 16.27
 Agradeço a Deus o Pai que por meio de seu Filho Jesus Cristo nos enviou o Espírito Santo que nos ajuda em todas as nossas atividades e trabalhos!
 A Ele toda Glória, Honra e Mérito!
 
-## :recycle: Licença
-
-O projeto está sob a licença MIT.
-> Saiba mais: [License MIT](./LICENSE).
